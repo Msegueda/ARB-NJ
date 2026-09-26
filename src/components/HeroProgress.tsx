@@ -1,7 +1,11 @@
+'use client';
+
 import { mockMilestones } from '@/lib/mock-data';
 import { formatCurrency } from '@/lib/utils';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function HeroProgress() {
+  const { t } = useLanguage();
   const milestone = mockMilestones[0];
   const percentage = (milestone.currentAmount / milestone.targetAmount) * 100;
 
@@ -16,7 +20,7 @@ export default function HeroProgress() {
                 {formatCurrency(milestone.currentAmount)}
               </span>
               <span className="text-lg font-medium text-slate-500 ml-2 block md:inline-block mt-2 md:mt-0">
-                Raised of {formatCurrency(milestone.targetAmount)} Milestone
+                {t('home.raisedOf')} {formatCurrency(milestone.targetAmount)} {t('home.milestone')}
               </span>
             </div>
             <div className="text-right mt-4 md:mt-0">
@@ -36,15 +40,15 @@ export default function HeroProgress() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 border-t border-slate-100">
             <div className="flex flex-col items-center p-4 bg-slate-50 rounded-lg">
               <span className="text-3xl font-bold text-forest-900">21</span>
-              <span className="text-sm font-medium text-slate-600 text-center mt-1">Active Contributing Families</span>
+              <span className="text-sm font-medium text-slate-600 text-center mt-1">{t('home.activeFamilies')}</span>
             </div>
             <div className="flex flex-col items-center p-4 bg-slate-50 rounded-lg">
               <span className="text-3xl font-bold text-forest-900">100%</span>
-              <span className="text-sm font-medium text-slate-600 text-center mt-1">Dual-Signatory Bank Escrow</span>
+              <span className="text-sm font-medium text-slate-600 text-center mt-1">{t('home.dualSignatory')}</span>
             </div>
             <div className="flex flex-col items-center p-4 bg-slate-50 rounded-lg">
               <span className="text-3xl font-bold text-forest-900">Live</span>
-              <span className="text-sm font-medium text-slate-600 text-center mt-1">Real-Time Ledger Audited</span>
+              <span className="text-sm font-medium text-slate-600 text-center mt-1">{t('home.realTimeLedger')}</span>
             </div>
           </div>
         </div>
