@@ -1,0 +1,43 @@
+
+> burkina-newark-fund@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling /contribute ...
+ ✓ Compiled /contribute in 6.8s (607 modules)
+ ✓ Compiled in 857ms (291 modules)
+ GET /contribute 200 in 7761ms
+ GET /contribute 200 in 48ms
+ ○ Compiling /treasurer ...
+ ✓ Compiled /treasurer in 620ms (612 modules)
+ GET /treasurer 200 in 791ms
+ ○ Compiling /transparency ...
+ ✓ Compiled /transparency in 871ms (640 modules)
+ GET /transparency 200 in 1012ms
+ ✓ Compiled in 795ms (654 modules)
+ ✓ Compiled in 665ms (654 modules)
+ ✓ Compiled in 461ms (640 modules)
+ ✓ Compiled in 421ms (640 modules)
+ ✓ Compiled in 367ms (640 modules)
+ ✓ Compiled in 452ms (640 modules)
+ ✓ Compiled in 394ms (640 modules)
+ ✓ Compiled in 403ms (640 modules)
+ GET /contribute 200 in 203ms
+ GET /treasurer 200 in 49ms
+ GET /transparency 200 in 59ms
+ ✓ Compiled in 562ms (640 modules)
+ GET /contribute 200 in 139ms
+ GET /treasurer 200 in 50ms
+ GET /transparency 200 in 65ms
+ ✓ Compiled in 463ms (640 modules)
+ ✓ Compiled in 867ms (654 modules)
+ ✓ Compiled in 1117ms (654 modules)
+ ✓ Compiled in 920ms (654 modules)
+ ✓ Compiled in 721ms (654 modules)
+ GET /contribute 200 in 198ms
+ GET /treasurer 200 in 56ms
+ GET /transparency 200 in 66ms

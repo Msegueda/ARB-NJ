@@ -16,10 +16,10 @@ export default function DashboardPage() {
   };
 
   const personalHistory = [
-    { id: 'BNK-2024-0042', date: 'Oct 15, 2024', amount: 100, method: 'Card (Stripe)', status: 'Cleared' },
-    { id: 'BNK-2024-0018', date: 'Sep 15, 2024', amount: 100, method: 'Card (Stripe)', status: 'Cleared' },
-    { id: 'BNK-2024-0005', date: 'Aug 15, 2024', amount: 100, method: 'Card (Stripe)', status: 'Cleared' },
-    { id: 'BNK-2023-0001', date: 'Oct 15, 2023', amount: 1000, method: 'Zelle', status: 'Cleared' },
+    { id: 'BH-REC-2024-0042', date: 'Oct 15, 2024', amount: 100, method: 'Card (Stripe)', status: 'Cleared' },
+    { id: 'BH-REC-2024-0018', date: 'Sep 15, 2024', amount: 100, method: 'Card (Stripe)', status: 'Cleared' },
+    { id: 'BH-REC-2024-0005', date: 'Aug 15, 2024', amount: 100, method: 'Card (Stripe)', status: 'Cleared' },
+    { id: 'BH-REC-2023-0001', date: 'Oct 15, 2023', amount: 1000, method: 'Zelle', status: 'Cleared' },
   ];
 
   return (
