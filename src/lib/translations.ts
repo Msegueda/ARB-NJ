@@ -118,6 +118,7 @@ export const translations = {
         zelle: 'Zelle Transfer',
         ach: 'Monthly ACH',
         card: 'Credit Card',
+        wire: 'Bank Wire',
       },
       status: {
         cleared: 'Cleared',
@@ -319,6 +320,7 @@ export const translations = {
         zelle: 'Transfert Zelle',
         ach: 'ACH Mensuel',
         card: 'Carte de Crédit',
+        wire: 'Virement Bancaire',
       },
       status: {
         cleared: 'Validé',

@@ -41,3 +41,6 @@
  GET /contribute 200 in 198ms
  GET /treasurer 200 in 56ms
  GET /transparency 200 in 66ms
+ ✓ Compiled in 4.5s (640 modules)
+ ✓ Compiled in 822ms (640 modules)
+ ✓ Compiled in 1029ms (654 modules)

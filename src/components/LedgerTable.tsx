@@ -65,6 +65,7 @@ export default function LedgerTable() {
       case 'zelle': return t('ledger.method.zelle');
       case 'ach': return t('ledger.method.ach');
       case 'card': return t('ledger.method.card');
+      case 'wire': return t('ledger.method.wire');
       default: return method;
     }
   };
